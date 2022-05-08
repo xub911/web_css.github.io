@@ -1,0 +1,277 @@
+body {
+    background-color:blueviolet;
+
+}
+
+.navbar{
+    background-color: darkslategray;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color:black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:8px;
+    margin-bottom:8px;
+    
+  }
+
+  .navbar a:hover  {
+    background-color: lightgray;
+    color: black;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+    
+  }
+  /* .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+   
+  } */
+
+  .dropdown{
+      float: left;
+      overflow: hidden;
+  }
+
+  .dropdown .dropbtn1 {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    /* margin: 0; Important for vertical align on mobile phones */
+    margin-top:8px;
+    margin-bottom:8px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn1 {
+    background-color: lightgray;
+    color: black;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkslategray;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: darkslategray;
+
+  }
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: lightgray;
+
+  }
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.title{
+    color:Red;
+}
+
+.subtitle{
+    color:yellow;
+}
+
+#contact-us{
+    color:gray;
+}
+
+
+/* div margins css 
+div{
+    border: 1px solid black;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:400px;
+    margin-left:400px;
+    background-color:lightgray;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}*/
+
+p {
+    border: 1px solid black;
+    
+    font-size:20pt;
+}
+
+Table{
+    width:50%; 
+    border-collapse:separate; 
+}
+  th,td{ 
+    padding:7px; border:red 1px solid;
+}  
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+ /* tr td:nth-child(odd){    for columns
+    background: lightgreen;
+}
+
+ tr td:nth-child(even){
+    background: pink;
+} */
+
+
+/*for rows*/
+tr:nth-child(even){background-color:aqua;}
+tr:nth-child(odd){background-color: lightgreen;}
+
+ul{
+    list-style-image: url(..//images/arrow.gif);
+}
+
+ol {
+    background: pink;
+    padding: 20px;
+}
+
+ul {
+    background: blue;
+    padding: 20px;
+}
+
+ol li {
+    background: pink;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: lightblue;
+    margin: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
